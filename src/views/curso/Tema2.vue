@@ -132,16 +132,16 @@
     p.mb-5 El usufructo puede terminar por diversas razones, establecidas en el Artículo 866 del Código Civil:
     
     .row.mb-5.justify-content-center
-      .col-lg-5.mb-3.col-xl-3(data-aos="fade-up")
+      .col-md-6.col-lg-5.mb-3.col-xl-3(data-aos="fade-up")
         figure
           img(src="@/assets/curso/tema2/10-1.svg")
-      .col-lg-5.mb-3.col-xl-3(data-aos="fade-down")
+      .col-md-6.col-lg-5.mb-3.col-xl-3(data-aos="fade-down")
         figure
           img(src="@/assets/curso/tema2/10-2.svg")
-      .col-lg-5.mb-3.col-xl-3(data-aos="fade-up")
+      .col-md-6.col-lg-5.mb-3.col-xl-3(data-aos="fade-up")
         figure
           img(src="@/assets/curso/tema2/10-3.svg")
-      .col-lg-5.mb-3.col-xl-3(data-aos="fade-down")
+      .col-md-6.col-lg-5.mb-3.col-xl-3(data-aos="fade-down")
         figure
           img(src="@/assets/curso/tema2/10-4.svg")
 
@@ -150,19 +150,19 @@
 
     p.mb-5 El usufructo tiene aplicaciones prácticas significativas, en diversos contextos:
 
-    .row.mb-5
-      .col-lg-3.mb-3(data-aos="flip-right")
+    .row.mb-5.justify-content-center
+      .col-md-8.col-lg-3.mb-3(data-aos="flip-right")
         figure
           img(src="@/assets/curso/tema2/11.png")
-      .col-lg-3(data-aos="flip-left")
+      .col-lg-3.mb-3(data-aos="flip-left")
         div.h-100.bg-color-1.p-4.tarjeta.mb-3
           p #[strong Protección habitacional]
           p.mb-0 Permite que una persona, como un cónyuge sobreviviente, pueda seguir viviendo en una vivienda sin ser propietario.
-      .col-lg-3(data-aos="flip-right")
+      .col-lg-3.mb-3(data-aos="flip-right")
         div.h-100.bg-color-1.p-4.tarjeta.mb-3
           p #[strong Explotación económica]
           p.mb-0 Facilita el uso productivo de bienes agrícolas o inmuebles, garantizando un equilibrio entre disfrute y conservación.
-      .col-lg-3(data-aos="flip-left")
+      .col-lg-3.mb-3(data-aos="flip-left")
         div.h-100.bg-color-1.p-4.tarjeta.mb-3
           p #[strong Planificación sucesoria]
           p.mb-0 Ofrece opciones para dividir derechos entre usufructuarios y nudo propietarios, optimizando la transferencia de bienes.

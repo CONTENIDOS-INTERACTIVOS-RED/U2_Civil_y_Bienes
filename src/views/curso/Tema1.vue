@@ -38,7 +38,7 @@
     p.mb-5 La propiedad es el derecho real más amplio y comprende las facultades de uso, goce y disposición del bien. El propietario puede disfrutar de sus beneficios, como rentas o utilidades, y transferirlo, según su voluntad, siempre sujeto a los límites legales.
 
     .bg-full-width.bg-fondo-1
-      .px-4.pb-md-3
+      .px-4.px-lg-5.pb-md-3
         h2(data-aos="fade-right") Posesión
 
         p.mb-5 La posesión implica la tenencia de un bien con ánimo de señor y dueño, aunque no siempre se cuente con un título de propiedad. Es una situación de hecho que puede generar efectos jurídicos, como la prescripción adquisitiva, si se cumplen los requisitos legales.
@@ -75,27 +75,27 @@
 
     TabsC.color-primario.mb-5
       .tabs-content.border.px-4.p-md-5.py-3(titulo="Propiedad" :icon="require('@/assets/bullets/icon-tab-c-4.svg')" )
-        .row
-          .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
+        .row.justify-content-center
+          .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
             h4 Propiedad
             p Según el Artículo 669 del Código Civil Colombiano, la propiedad confiere al titular el poder de usar, gozar y disponer de un bien, siempre que se respete la ley y los derechos de terceros. Este derecho es completo y exclusivo, pero limitado por normas como el interés público y las restricciones legales.
         
-          .col-md-6.col-lg-5.col-xl-4.order-1
+          .col-md-8.col-lg-5.col-xl-4.order-1.mb-3
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema1/7.png', alt='')
       .tabs-content.border.px-4.p-md-5.py-3(titulo="Posesión" :icon="require('@/assets/bullets/icon-tab-c-4.svg')" )
-        .row
-          .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
+        .row.justify-content-center
+          .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
             h4 Posesión
             p Definida en el Artículo 762 del Código Civil, la posesión implica la tenencia de un bien con intención de actuar como su dueño, aunque no necesariamente se cuente con título legal. La posesión puede dar lugar a la adquisición de la propiedad mediante prescripción adquisitiva, siempre que se cumplan ciertos requisitos legales, como el tiempo de posesión continua y la ausencia de oposición por parte de terceros.
         
-          .col-md-6.col-lg-5.col-xl-4.order-1
+          .col-md-8.col-lg-5.col-xl-4.order-1.mb-3
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema1/8.png', alt='')
     
     p.mb-5 Ambas figuras son esenciales para garantizar la convivencia y la seguridad en las transacciones patrimoniales, asegurando que los derechos de uso y disfrute de los bienes, se ejerzan dentro del marco normativo establecido.
 
-    .bg-full-width.bg-color-3.mb-lg-5
+    .bg-full-width.bg-color-3.mb-5
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
           .col-lg-8
@@ -117,8 +117,8 @@
 
     p.mb-5 La posesión y la propiedad, son conceptos esenciales en el derecho civil, especialmente en el ámbito inmobiliario. Aunque en teoría se trata de figuras distintas, en la práctica su relación es tan estrecha que, a menudo, parecen superponerse. 
 
-    .row.align-items-start.mb-5
-      .col-lg-4(data-aos="fade-right")
+    .row.align-items-start.mb-5.justify-content-center
+      .col-md-8.col-lg-4.mb-3(data-aos="fade-right")
         figure
           img(src="@/assets/curso/tema1/10.png", alt="").mb-4.mb-lg-0
       .col-lg-8(data-aos="fade-left")
@@ -165,10 +165,10 @@
     h2.mb-5(data-aos="fade-right") Historia y regulación de la posesión y propiedad
 
     .row.mb-5
-      .col-lg-7(data-aos="fade-right")
+      .col-lg-7.mb-3(data-aos="fade-right").order-2.order-lg-1
         p A continuación, se explora la evolución y la regulación de estos conceptos en la tradición jurídica.
         p En el <b>Derecho romano</b>, se trazaron las primeras distinciones claras entre ambas figuras. <b>La propiedad</b> (<em>dominium</em>) era el control absoluto sobre un bien, mientras que la <b>posesión</b> (<em>possessio</em>) se reconocía como una tenencia de hecho. Este sistema influyó profundamente en las codificaciones jurídicas de Europa y América Latina.
-      .col-lg-5(data-aos="fade-left")
+      .col-lg-5(data-aos="fade-left").order-1.order-lg-2
         figure
           img(src="@/assets/curso/tema1/11.png", alt="").mb-4.mb-lg-0
     
@@ -186,7 +186,7 @@
     .row.align-items-center.bg-ppal-azul.p-4.mb-5
       .col-lg-auto.order-2(data-aos="fade-right")
         img(src="@/assets/curso/tema1/13.svg", style="max-width: 90px").mx-auto
-      .col-lg.order-1
+      .col-lg.order-1.mb-3
         ul.lista-ul.mb-0
           li.mb-0.d-flex
             i.lista-ul__vineta
@@ -206,7 +206,7 @@
     p En Colombia, los conceptos de propiedad y posesión, se encuentran regulados para equilibrar los derechos individuales, con el interés social y ecológico.
 
    
-    figure(data-aos="zoom-in-up")
+    figure(data-aos="zoom-in-up").mb-3
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/8GaGaJFfo9s?si=F1b2M6SlLRnGqFf9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
 
@@ -250,18 +250,18 @@
     
     h2.mb-5(data-aos="fade-right") Posesión: concepto, características y mecanismos legales
 
-    .row.mb-5
+    .row.mb-5.justify-content-center
       .col-lg-10(data-aos="fade-right")
         p La posesión es una figura jurídica que se refiere al control de hecho sobre un bien, con o sin título formal. Según el Artículo 762 del Código Civil, es la tenencia de una cosa con ánimo de señor y dueño. Aunque no confiere titularidad inmediata, la posesión puede transformarse en propiedad mediante la prescripción adquisitiva, que reconoce derechos a quienes poseen un bien de forma pacífica, continua y pública durante un periodo establecido.
         p Los tipos de prescripción adquisitiva son:
-      .col-lg-2(data-aos="fade-left")
+      .col-md-8.col-lg-2(data-aos="fade-left")
         figure
          img(src="@/assets/curso/tema1/17.png", alt="").mb-4.mb-lg-0
 
     TabsC.color-primario.mb-5
       .tabs-content.border.px-4.p-md-5.py-3(titulo="Posesión" :icon="require('@/assets/bullets/icon-tab-c-4.svg')" )
-        .row
-          .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
+        .row.justify-content-center
+          .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
             h4 Posesión
             ul.lista-ul.mb-0
               li.mb-0.d-flex
@@ -272,14 +272,14 @@
                 | Plazo mínimo: 5 años.
               li.mb-0.d-flex
                 i.lista-ul__vineta
-                | <b>Ejemplo:</b> un agricultor que compró un terreno mediante un contrato informal y lo ha trabajado durante cinco años, puede solicitar el reconocimiento legal de su propiedad.
+                p <b>Ejemplo:</b> un agricultor que compró un terreno mediante un contrato informal y lo ha trabajado durante cinco años, puede solicitar el reconocimiento legal de su propiedad.
         
-          .col-md-6.col-lg-5.col-xl-4.order-1
+          .col-md-8.col-lg-5.col-xl-4.order-1.mb-3
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema1/18.png', alt='')
       .tabs-content.border.px-4.p-md-5.py-3(titulo="Propiedad" :icon="require('@/assets/bullets/icon-tab-c-4.svg')" )
-        .row
-          .col-md-6.col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
+        .row.justify-content-center
+          .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
             h4 Posesión
             ul.lista-ul.mb-0
               li.mb-0.d-flex
@@ -290,10 +290,10 @@
                 | Plazo mínimo: 10 años.
               li.mb-0.d-flex
                 i.lista-ul__vineta
-                | <b>Ejemplo:</b> una familia que ocupó una parcela abandonada y la cultivó por más de 10 años, puede adquirir la propiedad legalmente, mediante este mecanismo.
+                p <b>Ejemplo:</b> una familia que ocupó una parcela abandonada y la cultivó por más de 10 años, puede adquirir la propiedad legalmente, mediante este mecanismo.
         
         
-          .col-md-6.col-lg-5.col-xl-4.order-1
+          .col-md-8.col-lg-5.col-xl-4.order-1.mb-3
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema1/19.png', alt='')
     
@@ -336,11 +336,11 @@
 
     p.mb-5 A continuación, se analizan estas regulaciones con ejemplos prácticos que ilustran su aplicación.
 
-    .row.align-items-start.mb-5
-      .col-lg-4.order-2(data-aos="fade-right")
+    .row.align-items-start.mb-5.justify-content-center
+      .col-md-8.col-lg-4.order-2(data-aos="fade-right")
         figure
           img(src="@/assets/curso/tema1/20.png", alt="").mb-4.mb-lg-0
-      .col-lg-8.order-1
+      .col-lg-8.order-1.mb-3
         AcordionA(tipo="b")
           .div(titulo="Restitución de tierras para víctimas del conflicto armado")
             p La Ley 1448 del 2011, permite a las víctimas del desplazamiento forzado, recuperar predios que poseían o de los que eran propietarios antes del despojo. 
