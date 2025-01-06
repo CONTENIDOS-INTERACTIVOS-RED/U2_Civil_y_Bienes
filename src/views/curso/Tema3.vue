@@ -1,38 +1,122 @@
 <template lang="pug">
-  .curso-main-container.pb-3
-    BannerInterno(:subTitulo="'3. Título tema'")
-    .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
-  
-      #t_3_1.titulo-segundo(data-aos="flip-up")
-        h2 #[span 3.1] Subtítulo tema
+.curso-main-container.pb-3
+  BannerInterno(:subTitulo="'3. Servidumbres: constitución y extinción'")
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
-      .bg-full-width.border-top.actividad.bg-color-actividad
-        .p-4.p-md-5
-          #Actividad                
-            <Actividad :cuestionario="cuestionario"/>
+    .bg-color-1
+      .row.mb-5.align-items-center
+        .col-lg-7.mb-3
+          p.mb-0.p-4.px-5 Las servidumbres son derechos reales que otorgan a un predio (dominante) un beneficio sobre otro (sirviente), limitando parcialmente la propiedad de este último. Reguladas por el Código Civil Colombiano, se constituyen para garantizar necesidades de acceso, servicios o convivencia entre propietarios.
+        .col-lg-5(data-aos="flip-left")
+          figure
+            img(src="@/assets/curso/tema3/1.png")  
+      
+    h2.mb-5(data-aos="fade-right") Constitución
 
-      .bg-full-width.border-top.color-primario
-        .p-4.p-md-5
-          h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
-          .row.material-complementario
-            .col-12.col-md-6.col-lg-7
-              p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
-  
-              p.d-flex.my-4
-                img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-                a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
-  
-              p.d-flex.my-4
-                img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-                span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
-  
-              p.d-flex.my-4
-                img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-                a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
-  
-            .col-12.col-md-6.col-lg-3.offset-lg-1
+    p.mb-5 La analítica tiene aplicaciones prácticas que optimizan procesos y respaldan decisiones estratégicas en sectores como comercio, marketing y finanzas.
+
+    .bg-full-width.bg-fondo-slider.mb-5
+      .p-4.p-md-5
+        SlyderA(tipo="b").bg-white(data-aos="zoom-in")
+          .row.p-4.p-md-5
+            .col-lg-5.mb-3
               figure
-                img(src='@/assets/componentes/material-complementario.svg', alt='')
+                img(src="@/assets/curso/tema3/2.png")
+            .col-lg-7
+              h5 Por ley
+              p Impuestas automáticamente para garantizar derechos fundamentales o utilidad pública. 
+              p Ejemplo: servidumbre de paso para predios sin acceso a vías públicas.
+
+          .row.p-4.p-md-5
+            .col-lg-5.mb-3
+              figure
+                img(src="@/assets/curso/tema3/3.png")
+            .col-lg-7
+              h5 Por contrato
+              p Acuerdo entre partes formalizado en escritura pública. 
+              p Ejemplo: instalación de tuberías a cambio de compensación económica
+
+          .row.p-4.p-md-5
+            .col-lg-5.mb-3
+              figure
+                img(src="@/assets/curso/tema3/4.png")
+            .col-lg-7
+              h5 Por prescripción
+              p Uso continuo y pacífico del bien ajeno por el tiempo exigido por ley. 
+              p Ejemplo: camino utilizado durante años para acceder a un terreno.
+
+          .row.p-4.p-md-5
+            .col-lg-5.mb-3
+              figure
+                img(src="@/assets/curso/tema3/5.png")
+            .col-lg-7
+              h5 Por destino del propietario
+              p Surge al dividir un terreno, creando una necesidad entre los predios. 
+              p Ejemplo: predio vendido con una servidumbre de paso para su acceso.
+
+    h2.mb-5(data-aos="fade-right") Extinción
+
+    p.mb-5 La extinción de servidumbres ocurre por diversas razones legales y prácticas, dependiendo de las circunstancias.
+
+    .row.align-items-start.mb-5
+      .col-lg-4.order-2(data-aos="fade-right")
+        figure
+          img(src="@/assets/curso/tema3/6.png", alt="").mb-4.mb-lg-0
+      .col-lg-8.order-1(data-aos="fade-left")
+        AcordionA(tipo="b")
+          .div(titulo="Renuncia")
+            p El propietario del predio dominante renuncia al derecho. 
+            p Ejemplo: un predio obtiene acceso directo a una vía pública.
+          .div(titulo="Confusión")
+            p Ambos predios pasan a ser propiedad de la misma persona. 
+            p Ejemplo: el propietario compra el predio sirviente.
+          .div(titulo="Destrucción del predio")
+            p El predio sirviente o dominante desaparece. 
+            p Ejemplo: camino destruido por un deslizamiento.
+          .div(titulo="Cumplimiento del plazo")
+            p Finalización del plazo o condición pactada en el contrato. 
+            p Ejemplo: servidumbre temporal para un proyecto eléctrico.
+          .div(titulo="Prescripción extintiva")
+            p Falta de uso durante el tiempo establecido por la ley. 
+            p Ejemplo: no se usa una servidumbre de paso en 10 años.
+    
+    h2.mb-5(data-aos="fade-right") Características
+
+    p.mb-5 Las servidumbres son <b>accesorias</b> (vinculadas a los predios), <b>indivisibles</b> (el derecho beneficia a todo el predio dominante) y, en general, <b>perpetuas</b>, salvo acuerdo contrario. Promueven la cooperación entre propietarios y garantizan el uso eficiente de los bienes inmuebles.
+
+    div.bg-color-7.p-4.mb-5(data-aos="zoom-in")
+      p.text-bold Importancia
+      p.mb-0 Las servidumbres son herramientas jurídicas esenciales para resolver necesidades de acceso y uso entre predios vecinos, promoviendo el desarrollo urbano y rural en equilibrio con los derechos de los propietarios.
+
+          
+
+    .bg-full-width.border-top.actividad.bg-color-actividad
+      .p-4.p-md-5
+        #Actividad                
+          <Actividad :cuestionario="cuestionario"/>
+
+    .bg-full-width.border-top.color-primario
+      .p-4.p-md-5
+        h2(data-aos="fade-left") MATERIAL COMPLEMENTARIO
+        .row.material-complementario
+          .col-12.col-md-6.col-lg-7
+            p Los invitamos a explorar el material complementario de este curso, en esta sección encontrará recursos que le permitirán profundizar  y enriquecer su aprendizaje en los temas tratados en esta unidad.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
+              span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
+
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+
+          .col-12.col-md-6.col-lg-3.offset-lg-1
+            figure
+              img(src='@/assets/componentes/material-complementario.svg', alt='')
   
 </template>
 
