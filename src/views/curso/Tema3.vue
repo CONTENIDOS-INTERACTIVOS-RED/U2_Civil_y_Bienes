@@ -25,7 +25,7 @@
             .col-lg-7
               h5 Por ley
               p Impuestas automáticamente para garantizar derechos fundamentales o utilidad pública. 
-              p Ejemplo: servidumbre de paso para predios sin acceso a vías públicas.
+              p <b>Ejemplo:</b> servidumbre de paso para predios sin acceso a vías públicas.
 
           .row.p-4.p-md-5
             .col-lg-5.mb-3
@@ -34,7 +34,7 @@
             .col-lg-7
               h5 Por contrato
               p Acuerdo entre partes formalizado en escritura pública. 
-              p Ejemplo: instalación de tuberías a cambio de compensación económica
+              p <b>Ejemplo:</b> instalación de tuberías a cambio de compensación económica
 
           .row.p-4.p-md-5
             .col-lg-5.mb-3
@@ -43,7 +43,7 @@
             .col-lg-7
               h5 Por prescripción
               p Uso continuo y pacífico del bien ajeno por el tiempo exigido por ley. 
-              p Ejemplo: camino utilizado durante años para acceder a un terreno.
+              p <b>Ejemplo:</b> camino utilizado durante años para acceder a un terreno.
 
           .row.p-4.p-md-5
             .col-lg-5.mb-3
@@ -52,7 +52,7 @@
             .col-lg-7
               h5 Por destino del propietario
               p Surge al dividir un terreno, creando una necesidad entre los predios. 
-              p Ejemplo: predio vendido con una servidumbre de paso para su acceso.
+              p <b>Ejemplo:</b> predio vendido con una servidumbre de paso para su acceso.
 
     h2.mb-5(data-aos="fade-right") Extinción
 
@@ -66,19 +66,19 @@
         AcordionA(tipo="b")
           .div(titulo="Renuncia")
             p El propietario del predio dominante renuncia al derecho. 
-            p Ejemplo: un predio obtiene acceso directo a una vía pública.
+            p <b>Ejemplo:</b> un predio obtiene acceso directo a una vía pública.
           .div(titulo="Confusión")
             p Ambos predios pasan a ser propiedad de la misma persona. 
-            p Ejemplo: el propietario compra el predio sirviente.
+            p <b>Ejemplo:</b> el propietario compra el predio sirviente.
           .div(titulo="Destrucción del predio")
             p El predio sirviente o dominante desaparece. 
-            p Ejemplo: camino destruido por un deslizamiento.
+            p <b>Ejemplo:</b> camino destruido por un deslizamiento.
           .div(titulo="Cumplimiento del plazo")
             p Finalización del plazo o condición pactada en el contrato. 
-            p Ejemplo: servidumbre temporal para un proyecto eléctrico.
+            p <b>Ejemplo:</b> servidumbre temporal para un proyecto eléctrico.
           .div(titulo="Prescripción extintiva")
             p Falta de uso durante el tiempo establecido por la ley. 
-            p Ejemplo: no se usa una servidumbre de paso en 10 años.
+            p <b>Ejemplo:</b> no se usa una servidumbre de paso en 10 años.
     
     h2.mb-5(data-aos="fade-right") Características
 
@@ -104,15 +104,19 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
-
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/117630" target="_blank" rel="noopener noreferrer") Medina Pabón, J. E. (2019). Derecho Civil. Bienes. Derechos reales (2 ed.). Editorial Universidad del Rosario.
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://blogs.ugto.mx/derecho/presentacion-derechos-de-los-usufructuarios/" target="_blank" rel="noopener noreferrer") Universidad de Guanajuato. (2021). Derechos de los usufructuarios (blog). 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://aplicaciones.ai/casetext/" target="_blank" rel="noopener noreferrer") Derecho público y privado  
+
+           
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+              a(href="https://www.youtube.com/watch?v=ntcz89ZdgWo" target="_blank" rel="noopener noreferrer") Jurídicamente. (2023). USUFRUCTO VITALICIO.
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure

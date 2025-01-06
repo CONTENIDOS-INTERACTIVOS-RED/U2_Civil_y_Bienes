@@ -17,7 +17,7 @@
                 img(src="@/assets/curso/tema1/1.png")
             .col-lg-7
               h5 Oponibilidad universal
-              p Todos deben respetar el derecho del titular sobre el bien. Ejemplo: un propietario puede impedir la ocupación no autorizada de su propiedad.
+              p Todos deben respetar el derecho del titular sobre el bien. <b>Ejemplo:</b> un propietario puede impedir la ocupación no autorizada de su propiedad.
           .row.p-4.p-md-5
             .col-lg-5.mb-3
               figure
@@ -38,7 +38,7 @@
     p.mb-5 La propiedad es el derecho real más amplio y comprende las facultades de uso, goce y disposición del bien. El propietario puede disfrutar de sus beneficios, como rentas o utilidades, y transferirlo, según su voluntad, siempre sujeto a los límites legales.
 
     .bg-full-width.bg-fondo-1
-      .px-4.px-md-5.pb-md-3
+      .px-4.pb-md-3
         h2(data-aos="fade-right") Posesión
 
         p.mb-5 La posesión implica la tenencia de un bien con ánimo de señor y dueño, aunque no siempre se cuente con un título de propiedad. Es una situación de hecho que puede generar efectos jurídicos, como la prescripción adquisitiva, si se cumplen los requisitos legales.
@@ -272,7 +272,7 @@
                 | Plazo mínimo: 5 años.
               li.mb-0.d-flex
                 i.lista-ul__vineta
-                | Ejemplo: un agricultor que compró un terreno mediante un contrato informal y lo ha trabajado durante cinco años, puede solicitar el reconocimiento legal de su propiedad.
+                | <b>Ejemplo:</b> un agricultor que compró un terreno mediante un contrato informal y lo ha trabajado durante cinco años, puede solicitar el reconocimiento legal de su propiedad.
         
           .col-md-6.col-lg-5.col-xl-4.order-1
             figure(data-aos="zoom-in")
@@ -290,7 +290,7 @@
                 | Plazo mínimo: 10 años.
               li.mb-0.d-flex
                 i.lista-ul__vineta
-                | Ejemplo: una familia que ocupó una parcela abandonada y la cultivó por más de 10 años, puede adquirir la propiedad legalmente, mediante este mecanismo.
+                | <b>Ejemplo:</b> una familia que ocupó una parcela abandonada y la cultivó por más de 10 años, puede adquirir la propiedad legalmente, mediante este mecanismo.
         
         
           .col-md-6.col-lg-5.col-xl-4.order-1
@@ -344,14 +344,14 @@
         AcordionA(tipo="b")
           .div(titulo="Restitución de tierras para víctimas del conflicto armado")
             p La Ley 1448 del 2011, permite a las víctimas del desplazamiento forzado, recuperar predios que poseían o de los que eran propietarios antes del despojo. 
-            p Ejemplo: una familia desplazada de su finca durante la violencia, puede recuperarla mediante pruebas testimoniales o documentales, incluso sin un título formal.
+            p <b>Ejemplo:</b> una familia desplazada de su finca durante la violencia, puede recuperarla mediante pruebas testimoniales o documentales, incluso sin un título formal.
 
           .div(titulo="Formalización de predios ocupados informalmente")
             p La Ley 1561 del 2012, facilita la obtención de títulos de propiedad para personas que han ocupado terrenos de manera informal. Este proceso permite acceder a servicios públicos y créditos hipotecarios. 
-            p Ejemplo: un residente de un barrio popular en Bogotá, legaliza su vivienda tras demostrar ocupación continua durante más de 10 años.
+            p <b>Ejemplo:</b> un residente de un barrio popular en Bogotá, legaliza su vivienda tras demostrar ocupación continua durante más de 10 años.
           .div(titulo="Ordenamiento territorial y uso del suelo")
             p El Decreto 1077 del 2015, establece que los propietarios deben cumplir con las disposiciones locales de ordenamiento territorial, promoviendo un desarrollo sostenible y planificado. 
-            p Ejemplo: un propietario de un terreno rural, necesita permisos específicos para urbanizarlo, respetando áreas protegidas y normativas ambientales.
+            p <b>Ejemplo:</b> un propietario de un terreno rural, necesita permisos específicos para urbanizarlo, respetando áreas protegidas y normativas ambientales.
 
     
 
@@ -366,15 +366,17 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
-
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/40193 " target="_blank" rel="noopener noreferrer") Campos Lozada, M. (2017). Bienes y derechos reales. IURE Editores. 
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://red.uexternado.edu.co/wp-content/uploads/sites/48/2021/07/USUFRUCTO-USO-Y-HABITACION-.pdf" target="_blank" rel="noopener noreferrer") Vargas, A. R. EL USUFRUCTO, USO Y HABITACIÓN EN COLOMBIA. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.thomsonreuters.cl/es-cl/productos/informacion-legal-westlaw " target="_blank" rel="noopener noreferrer") Plataforma sobre gestión básica del derecho
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+              a(href="https://www.youtube.com/watch?v=eeCakPgTrA0" target="_blank" rel="noopener noreferrer") Aprender. (2020). DERECHOS REALES: Introducción y concepto. 
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure

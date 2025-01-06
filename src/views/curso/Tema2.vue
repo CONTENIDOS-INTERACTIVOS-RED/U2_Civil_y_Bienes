@@ -22,7 +22,7 @@
             .col-lg-7
               h5 Temporalidad
               p El usufructo tiene una duración limitada, ya sea por un periodo específico o de manera vitalicia, al término de la cual, el bien regresa al nudo propietario. 
-              p Ejemplo: un usufructo sobre una vivienda por 15 años, permite al usufructuario disfrutar de ella durante ese tiempo, debiendo devolverla al propietario, al finalizar el tiempo definido.
+              p <b>Ejemplo:</b> un usufructo sobre una vivienda por 15 años, permite al usufructuario disfrutar de ella durante ese tiempo, debiendo devolverla al propietario, al finalizar el tiempo definido.
           .row.p-4.p-md-5
             .col-lg-5.mb-3
               figure
@@ -30,7 +30,7 @@
             .col-lg-7
               h5 Frutos del bien
               p El usufructuario tiene derecho a percibir los frutos naturales, industriales o civiles, generados por el bien, respetando su esencia. 
-              p Ejemplo: un usufructo sobre una finca permite al usufructuario beneficiarse de las cosechas, mientras no altere el uso agrícola del terreno.
+              p <b>Ejemplo:</b> un usufructo sobre una finca permite al usufructuario beneficiarse de las cosechas, mientras no altere el uso agrícola del terreno.
           .row.p-4.p-md-5
             .col-lg-5.mb-3
               figure
@@ -38,7 +38,7 @@
             .col-lg-7
               h5 Limitación en la disposición
               p El usufructuario no puede vender, hipotecar ni modificar el bien sin autorización, pero puede ceder su derecho de usufructo a terceros. 
-              p Ejemplo: un usufructuario puede arrendar un apartamento objeto del usufructo, pero no puede venderlo.
+              p <b>Ejemplo:</b> un usufructuario puede arrendar un apartamento objeto del usufructo, pero no puede venderlo.
           .row.p-4.p-md-5
             .col-lg-5.mb-3
               figure
@@ -46,7 +46,7 @@
             .col-lg-7
               h5 Conservación del bien
               p El usufructuario debe realizar reparaciones ordinarias y mantener el bien en buen estado, mientras que el propietario se encarga de las reparaciones mayores.
-              p Ejemplo: si un usufructo recae sobre un apartamento, el usufructuario debe cubrir los costos de pintura o cambio de griferías, pero no de reparaciones estructurales.
+              p <b>Ejemplo:</b> si un usufructo recae sobre un apartamento, el usufructuario debe cubrir los costos de pintura o cambio de griferías, pero no de reparaciones estructurales.
 
           .row.p-4.p-md-5
             .col-lg-5.mb-3
@@ -55,7 +55,7 @@
             .col-lg-7
               h5 Reversibilidad
               p Al finalizar el usufructo, el bien regresa al nudo propietario en condiciones similares a las originales, salvo deterioros naturales por el uso permitido. 
-              p Ejemplo: un usufructuario que dañó el inmueble, está obligado a repararlo antes de devolverlo al propietario.
+              p <b>Ejemplo:</b> un usufructuario que dañó el inmueble, está obligado a repararlo antes de devolverlo al propietario.
     
     .bg-full-width.bg-fondo-1
       .px-4.px-md-5.pb-md-3
@@ -74,7 +74,7 @@
               )
               p.text-center.text-bold Usufructo legal
               p.mb-0.text-center Surge por disposición de la ley en situaciones específicas.
-              p.text-center <b>Ejemplo:</b> los padres tienen el usufructo de los bienes de sus hijos menores, según el Artículo 253 del Código Civil.
+              p.text-center <b><b>Ejemplo:</b></b> los padres tienen el usufructo de los bienes de sus hijos menores, según el Artículo 253 del Código Civil.
 
           
           div.col-lg-4.mb-4(data-aos="zoom-in-up")
@@ -86,7 +86,7 @@
               )
               p.text-center.text-bold Usufructo voluntario
               p.mb-0.text-center Se establece mediante contrato o testamento, especificando las condiciones y duración del derecho.
-              p.text-center <b>Ejemplo:</b> un testador otorga el usufructo vitalicio de una vivienda a su cónyuge, mientras que los hijos reciben la nuda propiedad.
+              p.text-center <b><b>Ejemplo:</b></b> un testador otorga el usufructo vitalicio de una vivienda a su cónyuge, mientras que los hijos reciben la nuda propiedad.
 
           
           div.col-lg-4.mb-4(data-aos="zoom-in-up")
@@ -98,7 +98,7 @@
               )
               p.text-center.text-bold Usufructo por prescripción
               p.mb-0.text-center Se adquiere mediante posesión prolongada y pacífica con ánimo de usufructuario, cumpliendo requisitos legales.
-              p.text-center <b>Ejemplo:</b> una persona que ha usufructuado un terreno por más de 10 años, podría regularizar su derecho si se cumplen las condiciones legales
+              p.text-center <b><b>Ejemplo:</b></b> una persona que ha usufructuado un terreno por más de 10 años, podría regularizar su derecho si se cumplen las condiciones legales
 
     p.mb-5 El usufructo puede recaer sobre diferentes tipos de bienes, como viviendas, terrenos, cuentas de inversión o colecciones de arte. Sin importar el objeto, el usufructuario tiene la obligación de respetar la naturaleza del bien y garantizar su adecuada conservación.
 
@@ -131,17 +131,17 @@
 
     p.mb-5 El usufructo puede terminar por diversas razones, establecidas en el Artículo 866 del Código Civil:
     
-    .row.mb-5
-      .col-lg-6.col-xl-3(data-aos="fade-up")
+    .row.mb-5.justify-content-center
+      .col-lg-5.mb-3.col-xl-3(data-aos="fade-up")
         figure
           img(src="@/assets/curso/tema2/10-1.svg")
-      .col-lg-6.col-xl-3(data-aos="fade-down")
+      .col-lg-5.mb-3.col-xl-3(data-aos="fade-down")
         figure
           img(src="@/assets/curso/tema2/10-2.svg")
-      .col-lg-6.col-xl-3(data-aos="fade-up")
+      .col-lg-5.mb-3.col-xl-3(data-aos="fade-up")
         figure
           img(src="@/assets/curso/tema2/10-3.svg")
-      .col-lg-6.col-xl-3(data-aos="fade-down")
+      .col-lg-5.mb-3.col-xl-3(data-aos="fade-down")
         figure
           img(src="@/assets/curso/tema2/10-4.svg")
 
@@ -151,19 +151,19 @@
     p.mb-5 El usufructo tiene aplicaciones prácticas significativas, en diversos contextos:
 
     .row.mb-5
-      .col-lg-3.mb-3
+      .col-lg-3.mb-3(data-aos="flip-right")
         figure
           img(src="@/assets/curso/tema2/11.png")
       .col-lg-3(data-aos="flip-left")
-        div.bg-color-1.p-4.tarjeta.mb-3
+        div.h-100.bg-color-1.p-4.tarjeta.mb-3
           p #[strong Protección habitacional]
           p.mb-0 Permite que una persona, como un cónyuge sobreviviente, pueda seguir viviendo en una vivienda sin ser propietario.
-      .col-lg-3
-        div.bg-color-1.p-4.tarjeta.mb-3
+      .col-lg-3(data-aos="flip-right")
+        div.h-100.bg-color-1.p-4.tarjeta.mb-3
           p #[strong Explotación económica]
           p.mb-0 Facilita el uso productivo de bienes agrícolas o inmuebles, garantizando un equilibrio entre disfrute y conservación.
       .col-lg-3(data-aos="flip-left")
-        div.bg-color-1.p-4.tarjeta.mb-3
+        div.h-100.bg-color-1.p-4.tarjeta.mb-3
           p #[strong Planificación sucesoria]
           p.mb-0 Ofrece opciones para dividir derechos entre usufructuarios y nudo propietarios, optimizando la transferencia de bienes.
 
@@ -178,15 +178,18 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/274611" target="_blank" rel="noopener noreferrer") De Castro Emilio Cerdá, F. J. A. L. M. (s/f). Las energías renovables en el ámbito internacional. Revistasice.com. 
-
+              a(href="https://elibro.net/es/lc/tecnologicadeloriente/titulos/115048" target="_blank" rel="noopener noreferrer") Larrea Holguín, J. (2008). Manual elemental de Derecho Civil 3. Volumen 5: el usufructo, derechos de uso y habitación, patrimonio familiar y las servidumbres. Corporación de Estudios y Publicaciones. 
             p.d-flex.my-4
-              img.me-3(src='@/assets/template/book.svg' :style="{'max-width':'16px'}")
-              span De Janeiro, R. (1992). La declaración del Río sobre el Medio Ambiente y el Desarrollo. Río de Janeiro República Federativa del Brasil., aprobada en Estocolmo el, 16.
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.enciclopedia-juridica.com" target="_blank" rel="noopener noreferrer") Enciclopedia Jurídica. (2020). Usufructo. 
+            p.d-flex.my-4
+              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.lexisnexis.com/en-us/gateway.page" target="_blank" rel="noopener noreferrer") Orientaciones sobre analisis de bienes 
+            
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://youtu.be/QKLjwCMyv3M?si=uAWhO9tnyghljaJg" target="_blank" rel="noopener noreferrer") Innovación y sostenibilidad.
+              a(href="https://www.youtube.com/watch?v=U5dUoafXnZk" target="_blank" rel="noopener noreferrer") David Jiménez - Abogado Experto en Herencias. (2021). USUFRUCTO. ¿Qué es y cómo funciona?.
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
