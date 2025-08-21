@@ -259,10 +259,10 @@
          img(src="@/assets/curso/tema1/17.png", alt="").mb-4.mb-lg-0
 
     TabsC.color-primario.mb-5
-      .tabs-content.border.px-4.p-md-5.py-3(titulo="Posesión" :icon="require('@/assets/bullets/icon-tab-c-4.svg')" )
+      .tabs-content.border.px-4.p-md-5.py-3(titulo="Ordinaria" :icon="require('@/assets/bullets/icon-tab-c-4.svg')" )
         .row.justify-content-center
           .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
-            h4 Posesión
+            h4 Ordinaria
             ul.lista-ul.mb-0
               li.mb-0.d-flex
                 i.lista-ul__vineta
@@ -277,10 +277,10 @@
           .col-md-8.col-lg-5.col-xl-4.order-1.mb-3
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema1/18.png', alt='')
-      .tabs-content.border.px-4.p-md-5.py-3(titulo="Propiedad" :icon="require('@/assets/bullets/icon-tab-c-4.svg')" )
+      .tabs-content.border.px-4.p-md-5.py-3(titulo="Extraordinaria" :icon="require('@/assets/bullets/icon-tab-c-4.svg')" )
         .row.justify-content-center
           .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
-            h4 Posesión
+            h4 Extraordinaria
             ul.lista-ul.mb-0
               li.mb-0.d-flex
                 i.lista-ul__vineta

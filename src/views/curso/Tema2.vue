@@ -98,7 +98,7 @@
               )
               p.text-center.text-bold Usufructo por prescripción
               p.mb-0.text-center Se adquiere mediante posesión prolongada y pacífica con ánimo de usufructuario, cumpliendo requisitos legales.
-              p.text-center <b><b>Ejemplo:</b></b> una persona que ha usufructuado un terreno por más de 10 años, podría regularizar su derecho si se cumplen las condiciones legales
+              p.text-center <b><b>Ejemplo:</b></b> una persona que ha usufructuado un terreno por más de 10 años, podría regularizar su derecho si se cumplen las condiciones legales.
 
     p.mb-5 El usufructo puede recaer sobre diferentes tipos de bienes, como viviendas, terrenos, cuentas de inversión o colecciones de arte. Sin importar el objeto, el usufructuario tiene la obligación de respetar la naturaleza del bien y garantizar su adecuada conservación.
 

@@ -34,7 +34,7 @@
             .col-lg-7
               h5 Por contrato
               p Acuerdo entre partes formalizado en escritura pública. 
-              p <b>Ejemplo:</b> instalación de tuberías a cambio de compensación económica
+              p <b>Ejemplo:</b> instalación de tuberías a cambio de compensación económica.
 
           .row.p-4.p-md-5
             .col-lg-5.mb-3
