@@ -97,6 +97,21 @@ export default {
       referencia: 'Rogel Vide, C. (2015). La nuda propiedad. Editorial Reus. ',
       link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/46602 ',
     },
+    {
+      referencia:
+        'Campos Lozada, M. (2017). Bienes y derechos reales. IURE Editores.',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/40193',
+    },
+    {
+      referencia:
+        'Larrea Holguín, J. (2008). Manual elemental de Derecho Civil 3. Volumen 5: el usufructo, derechos de uso y habitación, patrimonio familiar y las servidumbres. Corporación de Estudios y Publicaciones. ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/115048',
+    },
+    {
+      referencia:
+        'Medina Pabón, J. E. (2019). Derecho Civil. Bienes. Derechos reales (2 ed.). Editorial Universidad del Rosario. ',
+      link: 'https://elibro.net/es/lc/tecnologicadeloriente/titulos/117630',
+    },
   ],
   glosario: [
     {
